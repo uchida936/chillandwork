@@ -1,4 +1,3 @@
-/* Основные стили */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@ body {
   overflow: hidden;
 }
 
-/* Фон с картинкой */
 .background {
   position: fixed;
   top: 0;
@@ -19,7 +17,6 @@ body {
   filter: brightness(0.7);
 }
 
-/* Контейнер */
 .container {
   display: flex;
   height: 100vh;
@@ -27,20 +24,17 @@ body {
   box-sizing: border-box;
 }
 
-/* Левая колонка */
 .left-column {
   width: 40%;
   padding-right: 20px;
   border-right: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Правая колонка */
 .right-column {
   width: 60%;
   padding-left: 20px;
 }
 
-/* Секции */
 .todo-section, .notes-section, .spotify-section {
   background: rgba(0, 0, 0, 0.6);
   padding: 20px;
