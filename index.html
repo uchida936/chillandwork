@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify To-Do & Notes</title>
+  <title>Spotify Player</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,10 +34,13 @@
           <p id="track-name"></p>
           <p id="artist-name"></p>
         </div>
-        <button onclick="getNowPlaying()">🎵 Обновить</button>
+        <button onclick="playPause()">🎵 Воспроизвести/Пауза</button>
+        <button onclick="nextTrack()">⏭️ Следующий трек</button>
+        <button onclick="previousTrack()">⏮️ Предыдущий трек</button>
       </div>
     </div>
   </div>
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
